@@ -115,11 +115,6 @@ html-portfolio/
 
 ### Installation
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/BH69/html-portfolio.git
-cd html-portfolio
-```
 
 2. **Open in browser**
 ```bash
@@ -202,5 +197,6 @@ This project is open source and available under the MIT License.
 ---
 
 **Built with ❤️ using semantic HTML5, modern CSS3, and vanilla JavaScript**
+
 
 *Last Updated: December 2025*
