@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Franz Brian Razon - Frontend Developer Portfolio. Showcasing modern web development projects with semantic HTML, CSS, and accessibility best practices.">
+    <title>Franz Brian Razon - Frontend Developer Portfolio</title>
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <a href="#hero" class="site-title">Portfolio</a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav role="navigation" aria-label="Main navigation" class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="main">
+        <!-- Hero Section -->
+        <section class="hero vibrant-hero" id="hero">
+            <div class="container">
+                <div class="hero-content vibrant-hero-content">
+                    <p class="hero-subtitle vibrant-hero-subtitle">Frontend Engineer & UI Enthusiast</p>
+                    <p class="hero-description vibrant-hero-description">I transform creative concepts into elegant digital experiences. Specializing in building intuitive interfaces that users love to interact with.</p>
+                    <a href="#projects" class="cta-button vibrant-cta">Explore My Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- About Section -->
+            <section id="about" class="section vibrant-about-section">
+                <h2 class="section-title vibrant-about-title">About Me</h2>
+                <div class="about-content vibrant-about-content">
+                    <div class="about-image-wrapper vibrant-about-image-wrapper">
+                        <img src="assets/profilepic.jfif" alt="Franz Brian Razon, frontend developer" class="about-image vibrant-about-image" width="240" height="240">
+                    </div>
+                    <div class="about-text vibrant-about-text">
+                        <p class="about-intro">I'm <span class="vibrant-accent">Franz Brian Razon</span>, a frontend engineer who believes great design meets great code. I craft pixel-perfect interfaces that prioritize both aesthetics and functionality.</p>
+                        <ul class="about-list vibrant-about-list">
+                            <li>🎯 Passionate about creating delightful user experiences</li>
+                            <li>💻 Proficient in modern web technologies and frameworks</li>
+                            <li>📚 Continuous learner, always exploring emerging trends</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section vibrant-skills-section">
+                <h2 class="section-title vibrant-skills-title">Technical Skills</h2>
+                <div class="skills-grid vibrant-skills-grid">
+                    <article class="skill-card vibrant-skill-card">
+                        <div class="skill-icon vibrant-skill-icon" style="background:linear-gradient(135deg,#667eea,#764ba2);">🌐</div>
+                        <h3 class="skill-name vibrant-skill-name">HTML5</h3>
+                        <p class="skill-desc vibrant-skill-desc">Semantic markup for structured, accessible web content</p>
+                    </article>
+                    <article class="skill-card vibrant-skill-card">
+                        <div class="skill-icon vibrant-skill-icon" style="background:linear-gradient(135deg,#f093fb,#f5576c);">🎨</div>
+                        <h3 class="skill-name vibrant-skill-name">CSS3</h3>
+                        <p class="skill-desc vibrant-skill-desc">Modern styling with animations, flexbox & grid layouts</p>
+                    </article>
+                    <article class="skill-card vibrant-skill-card">
+                        <div class="skill-icon vibrant-skill-icon" style="background:linear-gradient(135deg,#4facfe,#00f2fe);">⚡</div>
+                        <h3 class="skill-name vibrant-skill-name">JavaScript</h3>
+                        <p class="skill-desc vibrant-skill-desc">Dynamic interactions and seamless user experiences</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section vibrant-projects-section">
+                <h2 class="section-title vibrant-projects-title">Featured Work</h2>
+                <div class="projects-grid vibrant-projects-grid">
+                    <article class="project-card vibrant-project-card">
+                        <div class="project-image-wrapper vibrant-project-image-wrapper">
+                            <img src="assets/project1.png" alt="Portfolio Project preview" class="project-image vibrant-project-image" width="360" height="220" loading="lazy">
+                        </div>
+                        <div class="project-content vibrant-project-content">
+                            <h3 class="project-title vibrant-project-title">Personal Portfolio</h3>
+                            <p class="project-description vibrant-project-desc">A fully responsive portfolio website showcasing my skills and projects. Built with semantic HTML5 and modern CSS3 techniques for optimal performance and accessibility.</p>
+                            <div class="project-tags vibrant-project-tags">
+                                <span class="tag vibrant-project-tag">HTML5</span>
+                                <span class="tag vibrant-project-tag">CSS3</span>
+                            </div>
+                            <div class="project-links vibrant-project-links">
+                                <a href="https://github.com/Razonfranz/Franz-Brian-Razon" target="_blank" rel="noopener noreferrer" class="project-link vibrant-project-btn" aria-label="View Portfolio code on GitHub">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card vibrant-project-card">
+                        <div class="project-image-wrapper vibrant-project-image-wrapper">
+                            <img src="assets/project2.png" alt="To Do List preview" class="project-image vibrant-project-image" width="360" height="220" loading="lazy">
+                        </div>
+                        <div class="project-content vibrant-project-content">
+                            <h3 class="project-title vibrant-project-title">Task Manager</h3>
+                            <p class="project-description vibrant-project-desc">An intuitive task management app featuring add, edit, delete, and filter capabilities. Clean UI with local storage for persistent task tracking across sessions.</p>
+                            <div class="project-tags vibrant-project-tags">
+                                <span class="tag vibrant-project-tag">HTML5</span>
+                                <span class="tag vibrant-project-tag">CSS3</span>
+                                <span class="tag vibrant-project-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links vibrant-project-links">
+                                <a href="https://github.com/Razonfranz/to-do-list/tree/main" target="_blank" rel="noopener noreferrer" class="project-link vibrant-project-btn" aria-label="View Task Manager code on GitHub">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card vibrant-project-card">
+                        <div class="project-image-wrapper vibrant-project-image-wrapper">
+                            <img src="assets/project3.png" alt="Color Picker preview" class="project-image vibrant-project-image" width="360" height="220" loading="lazy">
+                        </div>
+                        <div class="project-content vibrant-project-content">
+                            <h3 class="project-title vibrant-project-title">Color Picker Tool</h3>
+                            <p class="project-description vibrant-project-desc">A sleek color selection utility for designers and developers. Instantly preview colors and copy HEX values with a single click for seamless workflow integration.</p>
+                            <div class="project-tags vibrant-project-tags">
+                                <span class="tag vibrant-project-tag">HTML5</span>
+                                <span class="tag vibrant-project-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links vibrant-project-links">
+                                <a href="https://github.com/Razonfranz/color_picker" target="_blank" rel="noopener noreferrer" class="project-link vibrant-project-btn" aria-label="View Color Picker code on GitHub">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <section class="footer-contact">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="footer-intro">Have a project in mind or want to collaborate? I'd love to hear from you!</p>
+                
+                <div class="contact-wrapper">
+                    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required placeholder="Your Name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required placeholder="your.email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" required placeholder="Your message here..." rows="5"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                    
+                    <div class="social-links">
+                        <h3>Connect With Me</h3>
+                        <ul class="social-list">
+                            <li>
+                                <a href="https://github.com/Razonfranz" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Visit my GitHub profile">
+                                    <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                                        <path fill="currentColor" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                    <span>GitHub</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:razonfb.322.stud@cdd.edu.ph" class="social-link" aria-label="Send me an email">
+                                    <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                                        <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                    <span>Email</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="footer-bottom">
+                <p><small>&copy; 2025 Franz Brian Razon. All rights reserved.</small></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Navigation Toggle Script -->
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const nav = document.querySelector('.nav');
+        
+        navToggle.addEventListener('click', function() {
+            const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !isExpanded);
+            nav.classList.toggle('nav-active');
+            document.body.classList.toggle('nav-open');
+        });
+
+        // Close mobile menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('nav-active');
+                navToggle.setAttribute('aria-expanded', 'false');
+                document.body.classList.remove('nav-open');
+            });
+        });
+
+        // Smooth scroll behavior for all internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
